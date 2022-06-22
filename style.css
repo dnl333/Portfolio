@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color:rgb(0, 0, 0) ;
+    color: white;}
+
+header li{
+    display:inline;
+    position: relative;
+    left: 10px;
+    margin-left: 15px;
+    top:20px;
+    font-size: 17px;}
+
+header li:hover{
+    background-color:rgb(70, 162, 255);
+    padding: 5px;}
+
+@media screen and (max-width:600px){
+header li {
+    font-size: 15px;
+    display: inline-flex;
+    margin:auto;
+    padding-right: 10px;
+    padding-left: 1px;}}
+
+.container{
+    max-width: 80%;
+    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    top: 30vh;}
+
+h1{
+    width: auto;
+    max-width: 75%;
+    position: relative;
+    left: 10%;
+    font-size: 45px;
+    top:-30px;}
+
+@media screen and (max-width:600px){
+h1{
+    font-size: 30px;
+    display: block;}}
+
+.contate{
+    position: absolute;
+    font-size: 15px;
+    border-style: solid;
+    padding: 15px;
+    left: 10%;
+    top:240px;}
+    
+.contate:hover{
+    background-color: rgb(70, 162, 255);}
+
+@media screen and (max-width:600px){
+    .contate{font-size: 15px;}}
+
+a{
+    text-decoration: none;
+    color: white;}
+
+
+.foto{
+    position: relative;
+    left:50%;
+    margin-top: -275px;
+    max-width: 20%;}
+
+@media screen and (max-width:892px){
+    img{max-width: 250%;
+        position: relative;
+        top: 450px;
+        left: -200px;}}
+
+@media screen and (max-width:500px){
+    img{max-width: 200%;
+    position: relative;
+    top: 450px;
+    left: -190px;}}
+        
+
+footer li{
+    
+    position: relative;
+    left: 45%;
+    top:100px;
+    display: inline;
+    margin-left: 15px;
+    text-decoration: none;}
+
+ footer img{
+    width: 5vh;
+    text-decoration: none;}
+
+   
+
+@media screen and (max-width:600px) { 
+    li img{position: relative;
+        left: -100px;
+        max-width: 5vh;
+        margin: auto;
+        text-align: center;
+       
+        
+        
+        
+        
+        
+       
+
+
+    }
+    
+}
+    
+   
