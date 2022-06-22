@@ -76,7 +76,7 @@ a{
     margin-top: -275px;
     max-width: 20%;}
 
-@media screen and (max-width:892px){
+@media screen and (max-width:1170px){
     img{
     max-width: 250%;
     position: relative;
@@ -102,7 +102,7 @@ footer li{
     width: 5vh;
     text-decoration: none;}
 
-@media screen and (max-width:600px) { 
+@media screen and (max-width:1200px) { 
 li img{
     position: relative;
     left: -100px;
