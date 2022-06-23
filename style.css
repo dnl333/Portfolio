@@ -229,15 +229,14 @@ li img{
     
 .eu{/*corpo*/
     background-image: linear-gradient(to left, #000000,#1e356b,#165cc4be,rgba(0, 0, 0, 0.979));
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     margin-top: 0px;
-    border-radius: 20px;
+    border-radius: 80px;
     /*box-shadow: 6px 6px 10px rgba(42, 195, 255, 0.507);MUDEI DE IDEIA AQUI RS*/
     line-height:35px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif;}
 
 @media screen and (max-width:1176px){
 .eu{display: block;}}
