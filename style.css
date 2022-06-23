@@ -270,8 +270,7 @@ li img{
 @media screen and (max-width:1176px){
 .sobremim{
     display: block;
-    padding-right: 50px;
-    margin-left: 50px;
-    max-width: 100%;
+    margin-left: 20px;
+    width: 90%;
     position: static;
     font-size: 17px;}}
