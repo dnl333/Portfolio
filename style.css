@@ -221,13 +221,58 @@ li img{
                                 left: 41%;
                                 font-size: 22px;}}
 
-
-    .voltar2:hover{
+.voltar2:hover{
     background-color: rgb(8, 95, 182);
     border-radius: 1px;
     padding: 5px;
-    border-radius: 2px;
-    }          
+    border-radius: 2px;}    
+    
+.eu{/*corpo*/
+    background-image: linear-gradient(to left, #000000,#1e356b,#165cc4be,rgba(0, 0, 0, 0.979));
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 0px;
+    border-radius: 20px;
+    /*box-shadow: 6px 6px 10px rgba(42, 195, 255, 0.507);MUDEI DE IDEIA AQUI RS*/
+    line-height:35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+@media screen and (max-width:1176px){
+.eu{display: block;}}
 
-   
+.me{/*minha foto*/
+    position: static;
+    margin-right: 30px;
+    border-radius: 280px;
+    max-width:430px ;
+    border-style:groove;} 
+
+@media screen and (max-width:1176px){
+.me{
+    display: block;
+    width:25%;
+    margin:auto}}
+
+    @media screen and (max-width:600px){
+        .me{
+            display: block;
+            width:35%;
+            margin:auto}}
+
+.sobremim{/*texto sobre mim*/
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 15px;
+    font-size: 20px;}
+
+@media screen and (max-width:1176px){
+.sobremim{
+    display: block;
+    padding-right: 50px;
+    margin-left: 50px;
+    max-width: 100%;
+    position: static;
+    font-size: 17px;}}
