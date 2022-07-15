@@ -225,8 +225,10 @@ li img{
     background-color: rgb(8, 95, 182);
     border-radius: 1px;
     padding: 5px;
-    border-radius: 2px;}    
-    
+    border-radius: 2px;}  
+  
+                /*DAQUI PARA BAIXO ABA SOBRE MIM*/
+
 .eu{/*corpo*/
     background-image: linear-gradient(to left, #000000,#1e356b,#165cc4be,rgba(0, 0, 0, 0.979));
     width: 80%;
